@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-	baseURL: 'URL from heroku', // Add URL after heroku deployment
+	baseURL: 'https://registerzy.herokuapp.com/',
 });
 
 export const getAllRegistrants = async () => {
